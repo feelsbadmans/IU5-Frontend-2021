@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(6, 24, 36);
+    font: 20px "Comic Sans";
+    color: #f4f5d9fa;
+}
+
+sup {
+    font-size: 50%;
+}
+
+sub {
+    font-size: 50%;
+}
+
+.mainheader {
+    color: rgb(255, 166, 0);
+    text-align: center;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+.leftimg {
+    left: -10px;
+    position: fixed;
+    width: 275px;
+    max-width: 15%;
+}
+
+.rightimg {
+    width: 275px;
+    right: -10px;
+    position: fixed;
+    max-width: 15%;
+}
+
+.maintext {
+    max-width: 70%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hypeheader {
+    color: rgb(255, 166, 0);
+    display: block;
+    font-size: 200%;
+    text-align: center;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: rgb(255, 166, 0);
+}
+
+a:link {
+    color: midnightblue;
+}
+
+a:visited {
+    color: rgb(255, 166, 0);
+}
+
+#rating {
+    border-collapse: collapse;
+    width: 62%;
+    border: 1px solid;
+    border-color: midnightblue;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+th {
+    width: 30 px;
+    border: 1px solid;
+    color: #f4f5d9fa;
+}
+
+td {
+    width: 50px;
+    border: 1px solid;
+    color: #f4f5d9fa;
+}
