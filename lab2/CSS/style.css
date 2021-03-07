@@ -1012,4 +1012,10 @@
                 .navLinksImg {
                     width: 45px;
                 }
+                .mainAdvertismentButton {
+                    margin: 70px auto 50px;
+                }
+                .mainAdvertismentHeader {
+                    font-size: 34px;
+                }
             }
