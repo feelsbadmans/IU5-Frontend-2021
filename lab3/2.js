@@ -10,20 +10,20 @@
 function getMinMax(str) {
     let numbers = "1234567890"
     let nums = [];
-    let buf = "";
+    let buffer = "";
     let i = 0;
     while (i < str.length) {
         if (numbers.search(str[i]) != -1) {
             if (i != 0) {
-                if (str[i - 1] == '-') buf += '-';
+                if (str[i - 1] == '-') buffer += '-';
             }
             while (numbers.search(str[i]) != -1 && i < str.length - 1) {
-                buf += str[i];
+                buffer += str[i];
                 i++;
             }
-            if (i === str.length - 1 && numbers.search(str[i]) != -1) buf += str[i];
-            nums.push(Number(buf));
-            buf = "";
+            if (i === str.length - 1 && numbers.search(str[i]) != -1) buffer += str[i];
+            nums.push(Number(buffer));
+            buffer = "";
         }
         i++;
     }
